@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('./fonts/MyriadPro-Regular.eot');
+    src: url('./fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/MyriadPro-Regular.woff') format('woff'),
+    url('./fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+
+html {
+    background: #282828;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+    color: #fff;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #000;
+}
+
+.header {
+    background: url(../img/header-bg.png) no-repeat;
+}
+
+.main {
+    background: url(../img/main-bg.png) right top no-repeat;
+}
+.section {
+	margin: 0 auto;
+	padding-left: 24px;
+}
+
+.call {
+    font: bold italic 36.5px/43.5px Open Sans;
+    margin-bottom: 35px;
+}
+
+.call span {
+    color: #fff000;
+}
+
+.bonus {
+    font: 28.5px/42px Myriad Pro Regular;
+    padding: 20px 33px;
+    background: #000;
+}
+
+.bonus span {
+    color: #e40002;
+}
+
+.bonus,
+.play,
+.step p {
+    display: inline-block;
+    border: 1px solid #d86f00;
+    margin-bottom: 35px;
+}
+.play{
+	color: #fff;
+	font-size: 37.5px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11.5px 87px;
+    background-image: url(../img/play-bg.jpg);
+    border: none;
+
+}
+.play a{}
+.step p{
+	font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding-right: 14px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.78);
+}
+.step span {
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+    background-image: linear-gradient( to top, rgb(196, 42, 42) 0%, rgb(106, 1, 1) 53%, rgb(144, 18, 8) 53%,
+    rgb(169, 25, 14) 68%, rgb(194, 31, 19) 99%);
+    font-size: 45px;
+    margin-right: 12px;
+    vertical-align: middle;
+    line-height: 55px;
+	text-align: center;
+}
+
+.footer {
+    height: 63px;
+    display: flex;
+    align-items: center;
+    border: 3px solid #e3b21f;
+    border-radius: 3px;
+    background: #1e1e1e;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 584px;
+}
